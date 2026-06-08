@@ -4068,6 +4068,1632 @@ const camps = [
     scoreBreakdown: { cost: 58, commute: 62, coverage: 65, rating: 94, extras: 58 }
   },
 
+  // ── MORE OTTAWA & REGION — SPORTS, CLIMBING, TENNIS, COOKING, NATURE, ATTRACTIONS ──
+
+  // Klimat 2.0 — Bouldering Gym Ottawa
+  {
+    id: 372, name: "Klimat 2.0 — Bouldering Gym", provider: "Klimat",
+    type: "yearround", category: "sports", city: "ottawa", province: "ON", startDate: "2026-01-01", endDate: "2026-12-31",
+    ageMin: 5, ageMax: 18, color: "#5DAE3B",
+    address: "Downtown Ottawa, ON",
+    url: "https://klimat.ca/",
+    hours: "Mon–Fri 6am–11pm, Sat–Sun 8am–9pm",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 20, siblingDiscount: false, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: false,
+    commuteMins: 20, commuteKm: 16,
+    rating: 4.7, ratingCount: 1400,
+    description: "Modern bouldering gym downtown combining climbing with fitness centre, studio classes, and café. Youth membership $65/month (ages 9–12). Drop-in bouldering, no rope needed. Great intro to climbing.",
+    dates: "Open year-round",
+    scoreBreakdown: { cost: 75, commute: 82, coverage: 68, rating: 94, extras: 55 }
+  },
+
+  // Wild Walls Climbing Gym — Youth Programs
+  {
+    id: 373, name: "Wild Walls Climbing — Youth Programs", provider: "Wild Walls",
+    type: "yearround", category: "sports", city: "ottawa", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 5, ageMax: 18, color: "#5DAE3B",
+    address: "Ottawa, ON",
+    url: "https://wildwalls.com/youth-programs/",
+    hours: "Mon–Sat, various class times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 18, commuteKm: 14,
+    rating: 4.6, ratingCount: 520,
+    description: "Youth climbing programs from beginner to competitive level. Top rope, lead climbing, and bouldering. Summer camps and after-school programs. NCCP-certified coaching.",
+    dates: "Year-round programs + camps",
+    scoreBreakdown: { cost: 60, commute: 85, coverage: 72, rating: 92, extras: 58 }
+  },
+
+  // National Tennis School — Ottawa/Barrhaven/Orleans/Kanata
+  {
+    id: 374, name: "National Tennis School — Ottawa", provider: "NTS",
+    type: "yearround", category: "sports", city: "ottawa", province: "ON", startDate: "2026-01-01", endDate: "2026-12-31",
+    ageMin: 4, ageMax: 18, color: "#5DAE3B",
+    address: "Barrhaven, Orleans, Kanata & Central Ottawa",
+    url: "https://www.nationaltennisschool.com/",
+    hours: "Various session times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 10, commuteKm: 6,
+    rating: 4.7, ratingCount: 480,
+    description: "Tennis Canada Certified Instructors. Programs in Barrhaven, Orleans, and Kanata — indoor and outdoor. Beginner through advanced. Summer tennis camps and pickleball & swim combos. Group lessons 5×1hr.",
+    dates: "Year-round sessions + summer camps",
+    scoreBreakdown: { cost: 55, commute: 92, coverage: 72, rating: 94, extras: 58 }
+  },
+
+  // RSC Tennis Academy — Ottawa
+  {
+    id: 375, name: "RSC Tennis Academy — Junior Development", provider: "Rideau Sports Centre",
+    type: "yearround", category: "sports", city: "ottawa", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 6, ageMax: 18, color: "#5DAE3B",
+    address: "1 Donald St, Ottawa, ON",
+    url: "https://www.rideausportscentre.com/kids-programs/",
+    hours: "Various session times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 20, commuteKm: 16,
+    rating: 4.8, ratingCount: 350,
+    description: "Ottawa's premier Junior Tennis Development Centre. Provincial and national level athletes. Red half court (ages 6–7), orange, green, and full court programs. Year-round indoor courts.",
+    dates: "Year-round sessions",
+    scoreBreakdown: { cost: 50, commute: 82, coverage: 72, rating: 96, extras: 55 }
+  },
+
+  // Maverick Volleyball — Ottawa Youth
+  {
+    id: 376, name: "Maverick Volleyball — Youth Programs", provider: "Maverick Volleyball",
+    type: "yearround", category: "sports", city: "ottawa", province: "ON", startDate: "2026-09-01", endDate: "2027-08-31",
+    ageMin: 7, ageMax: 17, color: "#5DAE3B",
+    address: "Various locations, Ottawa, ON",
+    url: "https://maverickvolleyball.ca/",
+    hours: "Various session times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: true,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 15, commuteKm: 12,
+    rating: 4.7, ratingCount: 380,
+    description: "Learn-to-play and recreational volleyball — no tryouts. Progressive programs for boys and girls 7–17. Fall, winter, spring, and summer sessions on indoor and sand courts. Beach volleyball ages 9–13.",
+    dates: "Year-round sessions",
+    scoreBreakdown: { cost: 60, commute: 88, coverage: 72, rating: 94, extras: 58 }
+  },
+
+  // Ottawa Fusion Volleyball Club
+  {
+    id: 377, name: "Ottawa Fusion Volleyball Club", provider: "Ottawa Fusion",
+    type: "yearround", category: "sports", city: "ottawa", province: "ON", startDate: "2026-09-01", endDate: "2027-05-31",
+    ageMin: 10, ageMax: 18, color: "#5DAE3B",
+    address: "Ottawa, ON",
+    url: "https://www.ottawafusion.ca/",
+    hours: "Various training times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 18, commuteKm: 14,
+    rating: 4.6, ratingCount: 220,
+    description: "Competitive volleyball representing Ottawa across Ontario, Canada, and internationally. Tryouts Sep/Oct, season through May. Also offers recreational programs for beginners. Provincial Championships.",
+    dates: "Sep–May competitive season",
+    scoreBreakdown: { cost: 45, commute: 85, coverage: 72, rating: 92, extras: 55 }
+  },
+
+  // SAHA Elite Badminton — Ottawa
+  {
+    id: 378, name: "SAHA Elite Badminton Club — Youth", provider: "SAHA Elite",
+    type: "yearround", category: "sports", city: "ottawa", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 6, ageMax: 18, color: "#5DAE3B",
+    address: "Stittsville, Merivale & Sir Robert Borden HS, Ottawa",
+    url: "https://sahaelite.com/",
+    hours: "Various training times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 420, priceDaily: 0, siblingDiscount: true, earlyBird: true,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 15, commuteKm: 10,
+    rating: 4.7, ratingCount: 190,
+    description: "Youth badminton training, camps, and high performance programs. Summer camp Jul 6–Aug 14 at Stittsville, Merivale, and Sir Robert Borden. Expert coaching and skill development. $420/week.",
+    dates: "Year-round training + summer camps",
+    scoreBreakdown: { cost: 48, commute: 88, coverage: 68, rating: 94, extras: 58 }
+  },
+
+  // Kanata Junior Badminton Club
+  {
+    id: 379, name: "Kanata Junior Badminton Club", provider: "KJBC",
+    type: "yearround", category: "sports", city: "ottawa", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 9, ageMax: 19, color: "#5DAE3B",
+    address: "West Ottawa (Kanata), ON",
+    url: "https://badmintonottawa.com/kanatajunior/",
+    hours: "Weekly sessions",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: false,
+    commuteMins: 18, commuteKm: 15,
+    rating: 4.5, ratingCount: 120,
+    description: "30+ years of structured play and coaching for young badminton players ages 9–19 in west Ottawa. Recreational and competitive streams.",
+    dates: "Sep–Jun season",
+    scoreBreakdown: { cost: 72, commute: 85, coverage: 65, rating: 90, extras: 50 }
+  },
+
+  // XQuest Archery — Ottawa
+  {
+    id: 380, name: "XQuest Archery — Youth Lessons", provider: "XQuest",
+    type: "yearround", category: "sports", city: "ottawa", province: "ON", startDate: "2026-01-01", endDate: "2026-12-31",
+    ageMin: 10, ageMax: 18, color: "#5DAE3B",
+    address: "Ottawa, ON",
+    url: "https://www.xquestarchery.com/lessons/",
+    hours: "Various session times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: false, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 18, commuteKm: 14,
+    rating: 4.7, ratingCount: 180,
+    description: "5-week archery courses with 1.5 hours of instruction per week. Archery 101 foundations, recurve and compound bow programs. Ages 10+. All equipment provided. Saturday sessions available.",
+    dates: "Year-round 5-week courses",
+    scoreBreakdown: { cost: 65, commute: 85, coverage: 62, rating: 94, extras: 58 }
+  },
+
+  // Glebe Little League Baseball — Ottawa
+  {
+    id: 381, name: "Glebe Little League — Baseball", provider: "Glebe Little League",
+    type: "summer_camp", category: "sports", city: "ottawa", province: "ON", startDate: "2026-04-01", endDate: "2026-09-30",
+    ageMin: 4, ageMax: 18, color: "#5DAE3B",
+    address: "Glebe, Ottawa, ON",
+    url: "http://glebelittleleague.ca/",
+    hours: "Weekday evenings & Saturdays",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: true,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 18, commuteKm: 14,
+    rating: 4.6, ratingCount: 350,
+    description: "Winter skills training, spring house league, summer competitive and recreational ball, and fall ball baseball. Boys and girls ages 4–18. One of Ottawa's longest-running youth baseball programs.",
+    dates: "Apr–Sep season + winter training",
+    scoreBreakdown: { cost: 72, commute: 85, coverage: 72, rating: 92, extras: 55 }
+  },
+
+  // Stittsville Minor Softball Association
+  {
+    id: 382, name: "Stittsville Softball — Youth Programs", provider: "SMSA",
+    type: "summer_camp", category: "sports", city: "ottawa", province: "ON", startDate: "2026-05-01", endDate: "2026-07-31",
+    ageMin: 4, ageMax: 20, color: "#5DAE3B",
+    address: "Stittsville, Ottawa, ON",
+    url: "https://www.stittsvillesoftball.org/",
+    hours: "Weekday evenings",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: true,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 22, commuteKm: 20,
+    rating: 4.5, ratingCount: 180,
+    description: "Affordable recreational house league, selects, and rep softball in Stittsville. Ages 4–20. Regular season May 1–end of June. Community-based program for all skill levels.",
+    dates: "May–Jul season",
+    scoreBreakdown: { cost: 80, commute: 80, coverage: 65, rating: 90, extras: 55 }
+  },
+
+  // West Ottawa Lacrosse
+  {
+    id: 383, name: "West Ottawa Lacrosse — Youth", provider: "West Ottawa Lacrosse",
+    type: "summer_camp", category: "sports", city: "ottawa", province: "ON", startDate: "2026-04-01", endDate: "2026-08-31",
+    ageMin: 5, ageMax: 18, color: "#5DAE3B",
+    address: "West Ottawa, ON",
+    url: "https://wol.lacrosseshift.com/",
+    hours: "Various game/practice times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: true,
+    lunchIncluded: false, suppliesIncluded: false,
+    commuteMins: 18, commuteKm: 15,
+    rating: 4.6, ratingCount: 210,
+    description: "Boys lacrosse — 2026 registration open. House league and competitive programs. Canada's fastest-growing sport. Skills development, team play, and sportsmanship. Ages 5–18.",
+    dates: "Apr–Aug season",
+    scoreBreakdown: { cost: 62, commute: 85, coverage: 68, rating: 92, extras: 52 }
+  },
+
+  // Ottawa Ospreys RFC — Youth Rugby
+  {
+    id: 384, name: "Ottawa Ospreys — Youth Rugby", provider: "Ottawa Ospreys RFC",
+    type: "yearround", category: "sports", city: "ottawa", province: "ON", startDate: "2026-04-01", endDate: "2026-10-31",
+    ageMin: 4, ageMax: 18, color: "#5DAE3B",
+    address: "Ottawa, ON",
+    url: "https://ottawarugby.com/",
+    hours: "Various practice times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: false,
+    commuteMins: 15, commuteKm: 12,
+    rating: 4.5, ratingCount: 190,
+    description: "Youth rugby programs from age 4 through junior and senior levels. Non-contact intro for young players, full contact for teens. Inclusive, community-based club. Spring/summer outdoor season.",
+    dates: "Apr–Oct season",
+    scoreBreakdown: { cost: 70, commute: 88, coverage: 68, rating: 90, extras: 52 }
+  },
+
+  // Royale Equestrian Centre — Ottawa
+  {
+    id: 385, name: "Royale Equestrian Centre — Riding Lessons", provider: "Royale Equestrian",
+    type: "yearround", category: "nature", city: "ottawa", province: "ON", startDate: "2026-01-01", endDate: "2026-12-31",
+    ageMin: 7, ageMax: 18, color: "#5DAE3B",
+    address: "Ottawa area, ON",
+    url: "https://www.royaleequestriancentre.com/",
+    hours: "Various lesson times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 30, commuteKm: 28,
+    rating: 4.8, ratingCount: 280,
+    description: "Horseback riding lessons — private, semi-private, and group. March break camp and after-school programs for ages 7–14. Beginner through Level 8+. Year-round riding in indoor arena.",
+    dates: "Year-round lessons + camps",
+    scoreBreakdown: { cost: 42, commute: 72, coverage: 72, rating: 96, extras: 58 }
+  },
+
+  // Brookson Farm — Ottawa Riding Lessons
+  {
+    id: 386, name: "Brookson Farm — Riding Lessons", provider: "Brookson Farm",
+    type: "yearround", category: "nature", city: "ottawa", province: "ON", startDate: "2026-01-01", endDate: "2026-12-31",
+    ageMin: 6, ageMax: 18, color: "#5DAE3B",
+    address: "15 min from downtown Ottawa, ON",
+    url: "https://www.brookson.ca/",
+    hours: "Various lesson times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 25, commuteKm: 22,
+    rating: 4.7, ratingCount: 210,
+    description: "Bilingual riding lessons for beginners through advanced riders. Hunter/jumper competition training. All ages welcome. Beautiful farm setting just 15 minutes from downtown Ottawa.",
+    dates: "Year-round lessons",
+    scoreBreakdown: { cost: 42, commute: 78, coverage: 68, rating: 94, extras: 55 }
+  },
+
+  // Splitsville Bowling — Kanata
+  {
+    id: 387, name: "Splitsville Bowling — Kanata", provider: "Splitsville",
+    type: "yearround", category: "playground", city: "ottawa", province: "ON", startDate: "2026-01-01", endDate: "2026-12-31",
+    ageMin: 3, ageMax: 18, color: "#E8842C",
+    address: "Kanata Entertainment Centrum, Kanata, ON",
+    url: "https://www.splitsvillebowl.ca/kanata-bowling",
+    hours: "Daily 10am–midnight",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 15, siblingDiscount: false, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: false,
+    commuteMins: 18, commuteKm: 15,
+    rating: 4.4, ratingCount: 1200,
+    description: "18-lane 10-pin bowling plus modern arcade. Bumper bowling for kids. Birthday party packages from $149. Kanata Entertainment Centrum location. Drop-in and league play.",
+    dates: "Open year-round",
+    scoreBreakdown: { cost: 78, commute: 85, coverage: 65, rating: 88, extras: 52 }
+  },
+
+  // LaserMaxx — Ottawa Laser Tag
+  {
+    id: 388, name: "LaserMaxx — Ottawa Laser Tag", provider: "LaserMaxx",
+    type: "yearround", category: "playground", city: "ottawa", province: "ON", startDate: "2026-01-01", endDate: "2026-12-31",
+    ageMin: 6, ageMax: 18, color: "#E8842C",
+    address: "Ottawa, ON",
+    url: "https://www.lasermaxx.ca/",
+    hours: "Various session times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 15, siblingDiscount: false, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: false,
+    commuteMins: 18, commuteKm: 14,
+    rating: 4.5, ratingCount: 680,
+    description: "High-intensity, team-based laser tag arena. Perfect for older kids, tweens, and teens. Birthday party packages, group events, and drop-in sessions. Ages 6+.",
+    dates: "Open year-round",
+    scoreBreakdown: { cost: 78, commute: 85, coverage: 62, rating: 90, extras: 52 }
+  },
+
+  // Julianna Banana — Baking Classes Ottawa
+  {
+    id: 389, name: "Julianna Banana — Kids Baking Classes", provider: "Julianna Banana",
+    type: "yearround", category: "arts", city: "ottawa", province: "ON", startDate: "2026-01-01", endDate: "2026-12-31",
+    ageMin: 5, ageMax: 17, color: "#7B4EA3",
+    address: "Various kitchens across Ottawa, ON",
+    url: "https://juliannabanana.ca/",
+    hours: "Various class times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 15, commuteKm: 12,
+    rating: 4.9, ratingCount: 420,
+    description: "Interactive hands-on baking and cooking workshops for all ages. Teens & tweens workshops, family classes, and culinary birthday parties. In kitchens across Ottawa and online. Fun, creative, delicious!",
+    dates: "Year-round workshops",
+    scoreBreakdown: { cost: 58, commute: 88, coverage: 65, rating: 98, extras: 60 }
+  },
+
+  // STiR Culinary — Kids Cooking Orleans
+  {
+    id: 390, name: "STiR Culinary — Kids Cooking Classes", provider: "STiR Culinary",
+    type: "yearround", category: "arts", city: "ottawa", province: "ON", startDate: "2026-01-01", endDate: "2026-12-31",
+    ageMin: 4, ageMax: 13, color: "#7B4EA3",
+    address: "Orleans & Cumberland, Ottawa, ON",
+    url: "http://www.stirculinary.ca/",
+    hours: "Various class times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 25, commuteKm: 22,
+    rating: 4.8, ratingCount: 280,
+    description: "Bilingual kids cooking classes in east Ottawa. Mini Chefs, Little Chefs, and Junior Chefs programs ages 4–13. Community spaces across Orléans and Cumberland. Hands-on fun with real recipes.",
+    dates: "Year-round classes + camps",
+    scoreBreakdown: { cost: 60, commute: 78, coverage: 65, rating: 96, extras: 60 }
+  },
+
+  // Le Petit Cordon Bleu — Ottawa
+  {
+    id: 391, name: "Le Petit Cordon Bleu — Kids Pastry", provider: "Le Cordon Bleu",
+    type: "yearround", category: "arts", city: "ottawa", province: "ON", startDate: "2026-01-01", endDate: "2026-12-31",
+    ageMin: 8, ageMax: 12, color: "#7B4EA3",
+    address: "453 Laurier Ave E, Ottawa, ON",
+    url: "https://www.cordonbleu.edu/ottawa/petit-cordon-bleu/en",
+    hours: "Various workshop times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: false, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 20, commuteKm: 16,
+    rating: 4.9, ratingCount: 150,
+    description: "Pastry courses by the world-famous Le Cordon Bleu for ages 8–12. Children learn baking techniques under professional Chefs, developing creativity and taste. A world-class culinary experience in Ottawa.",
+    dates: "Year-round workshops",
+    scoreBreakdown: { cost: 40, commute: 82, coverage: 62, rating: 98, extras: 55 }
+  },
+
+  // Diefenbunker — Cold War Museum
+  {
+    id: 392, name: "Diefenbunker — Cold War Museum", provider: "Diefenbunker",
+    type: "yearround", category: "museum", city: "ottawa", province: "ON", startDate: "2026-01-01", endDate: "2026-12-31",
+    ageMin: 6, ageMax: 18, color: "#1AA5A0",
+    address: "3929 Carp Rd, Carp, Ottawa, ON",
+    url: "https://diefenbunker.ca/",
+    hours: "Daily 10am–4pm",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 15, siblingDiscount: false, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: false,
+    commuteMins: 30, commuteKm: 28,
+    rating: 4.6, ratingCount: 3200,
+    description: "Multi-award-winning underground Cold War museum — 25,000 sq ft across 4 subterranean floors. Learn about nuclear threat, Cold War history, and Canadian military heritage. Guided tours, escape room, and educational programs.",
+    dates: "Open year-round",
+    scoreBreakdown: { cost: 78, commute: 72, coverage: 72, rating: 92, extras: 55 }
+  },
+
+  // Camp Fortune — Adventure Park & Zipline
+  {
+    id: 393, name: "Camp Fortune — Adventure Park & Zipline", provider: "Camp Fortune",
+    type: "summer_camp", category: "nature", city: "chelsea", province: "QC", startDate: "2026-05-15", endDate: "2026-10-15",
+    ageMin: 5, ageMax: 18, color: "#5DAE3B",
+    address: "300 Chemin Dunlop, Chelsea, QC",
+    url: "https://campfortune.com/",
+    hours: "Daily 9am–5pm (summer)",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 45, siblingDiscount: false, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: false,
+    commuteMins: 25, commuteKm: 22,
+    rating: 4.5, ratingCount: 4800,
+    description: "Ziplines, aerial park treetop course, mountain coaster, and scenic chairlift in Gatineau Park. Multiple difficulty levels from kids beginner to advanced adult. Beautiful Gatineau Hills setting 20 min from Ottawa.",
+    dates: "May–Oct (summer), skiing in winter",
+    scoreBreakdown: { cost: 55, commute: 78, coverage: 78, rating: 90, extras: 55 }
+  },
+
+  // Out to Play — Forest School & Nature Play
+  {
+    id: 394, name: "Out to Play — Forest School Ottawa", provider: "Out to Play",
+    type: "yearround", category: "nature", city: "ottawa", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 2, ageMax: 12, color: "#5DAE3B",
+    address: "Nepean & urban wild spaces, Ottawa, ON",
+    url: "https://outtoplay.ca/",
+    hours: "Various program times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: true,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 12, commuteKm: 8,
+    rating: 4.8, ratingCount: 280,
+    description: "Forest school, field trips, and summer day camps in urban wild spaces across Ottawa. Broadening access to outdoor play for children and families. Nature-based learning, unstructured play, and exploration.",
+    dates: "Year-round programs + summer camps",
+    scoreBreakdown: { cost: 58, commute: 90, coverage: 72, rating: 96, extras: 62 }
+  },
+
+  // Earth Path — Nature School Ottawa
+  {
+    id: 395, name: "Earth Path — Nature School Programs", provider: "Earth Path",
+    type: "yearround", category: "nature", city: "ottawa", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 3, ageMax: 16, color: "#5DAE3B",
+    address: "Ottawa region, ON",
+    url: "https://earthpath.ca/",
+    hours: "Various program times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 20, commuteKm: 16,
+    rating: 4.7, ratingCount: 180,
+    description: "Non-profit nature school for children, teens, and families in the Ottawa region. Outdoor education, wildlife observation, forest skills, and seasonal programs. Connection to nature through hands-on learning.",
+    dates: "Year-round programs + camps",
+    scoreBreakdown: { cost: 62, commute: 82, coverage: 72, rating: 94, extras: 58 }
+  },
+
+  // ── OTTAWA / NEPEAN / ORLÉANS / KANATA — LOCAL BUSINESSES ──
+
+  // Aqua-Tots Swim School — Kanata
+  {
+    id: 339, name: "Aqua-Tots Swim School — Kanata", provider: "Aqua-Tots",
+    type: "yearround", category: "swimming", city: "ottawa", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 0, ageMax: 12, color: "#1AA5A0",
+    address: "Kanata, Ottawa, ON",
+    url: "https://www.aqua-tots.com/kanata/",
+    hours: "Mon–Sat, various class times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 18, commuteKm: 15,
+    rating: 4.8, ratingCount: 380,
+    description: "Certified swimming lessons for babies through age 12 in Kanata. Warm-water pool, small class sizes, year-round schedule. Flexible make-up classes for busy families.",
+    dates: "Year-round, ongoing enrollment",
+    scoreBreakdown: { cost: 55, commute: 85, coverage: 72, rating: 96, extras: 60 }
+  },
+
+  // KidsCanSwim — Kanata, Orléans & Westboro
+  {
+    id: 340, name: "KidsCanSwim — Ottawa Swim Schools", provider: "KidsCanSwim Canada",
+    type: "yearround", category: "swimming", city: "ottawa", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 0, ageMax: 12, color: "#1AA5A0",
+    address: "Kanata, Orléans & Westboro, Ottawa, ON",
+    url: "https://kidscanswimcanada.ca/locations/",
+    hours: "Mon–Sat, various class times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 15, commuteKm: 12,
+    rating: 4.7, ratingCount: 520,
+    description: "Purpose-built swim schools for babies and kids. Low student-to-instructor ratios, warm pools, expert certified instructors. Locations in Kanata, Orléans, and Westboro.",
+    dates: "Year-round, ongoing enrollment",
+    scoreBreakdown: { cost: 52, commute: 88, coverage: 72, rating: 94, extras: 60 }
+  },
+
+  // Hippo In The Bathtub — Nepean
+  {
+    id: 341, name: "Hippo In The Bathtub — Swim Lessons", provider: "Hippo In The Bathtub",
+    type: "yearround", category: "swimming", city: "ottawa", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 0, ageMax: 14, color: "#1AA5A0",
+    address: "Nepean, Stittsville & Trainyards, Ottawa, ON",
+    url: "https://hippointhebathtub.ca/",
+    hours: "Mon–Sat, various class times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 12, commuteKm: 8,
+    rating: 4.8, ratingCount: 640,
+    description: "Ottawa's premier swim provider. Warm salt water pools, private and semi-private lessons. Locations in Nepean, Stittsville, and Trainyards. Group classes ages 4 months–14 years. Aquatic camps available.",
+    dates: "Year-round, ongoing enrollment",
+    scoreBreakdown: { cost: 48, commute: 90, coverage: 72, rating: 96, extras: 62 }
+  },
+
+  // Camps Canada — Orleans, Kanata, Barrhaven
+  {
+    id: 342, name: "Camps Canada — Multi-Sport & Swim", provider: "Camps Canada",
+    type: "summer_camp", category: "multi", city: "ottawa", province: "ON", startDate: "2026-06-29", endDate: "2026-08-21",
+    ageMin: 5, ageMax: 12, color: "#1AA5A0",
+    address: "Orleans, Kanata & Barrhaven locations, Ottawa, ON",
+    url: "https://campscanada.com/",
+    hours: "9am–4pm (extended care available)",
+    extendedCare: true, extendedHours: "7:30am–5:30pm",
+    priceWeekly: 275, priceDaily: 0, siblingDiscount: true, earlyBird: true,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 12, commuteKm: 8,
+    rating: 4.6, ratingCount: 920,
+    description: "Est. 1996. Arts & crafts, biking, multi-sport, and swim lesson camps in Orleans, Kanata, and Barrhaven. 2026 price freeze at 2025 rates. City of Ottawa swim curriculum with lifeguard-led instruction. Ages 5–12.",
+    dates: "Jun 29–Aug 21, weekly sessions",
+    scoreBreakdown: { cost: 65, commute: 90, coverage: 82, rating: 92, extras: 72 }
+  },
+
+  // Capital Camps — Orleans Art & Sports
+  {
+    id: 343, name: "Capital Camps — Art, Sports & Tennis", provider: "Capital Camps",
+    type: "summer_camp", category: "multi", city: "ottawa", province: "ON", startDate: "2026-06-29", endDate: "2026-08-21",
+    ageMin: 4, ageMax: 14, color: "#1AA5A0",
+    address: "Orleans, Ottawa, ON",
+    url: "https://www.capitalcamps.ca/",
+    hours: "9am–4pm (extended care available)",
+    extendedCare: true, extendedHours: "8am–5pm",
+    priceWeekly: 280, priceDaily: 0, siblingDiscount: true, earlyBird: true,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 25, commuteKm: 22,
+    rating: 4.5, ratingCount: 380,
+    description: "Orleans-based camp with cheerleading, acting, dance, tennis, football training, and arts & crafts. Combines sports and creative programs. Ages 4–14.",
+    dates: "Jun 29–Aug 21, weekly sessions",
+    scoreBreakdown: { cost: 62, commute: 78, coverage: 78, rating: 90, extras: 68 }
+  },
+
+  // Above the Rim Basketball — Ottawa
+  {
+    id: 344, name: "Above the Rim Basketball School", provider: "Above the Rim",
+    type: "yearround", category: "sports", city: "ottawa", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 5, ageMax: 17, color: "#5DAE3B",
+    address: "Orleans, Kanata, Nepean & Central Ottawa",
+    url: "https://abovetherimbasketballschool.com/",
+    hours: "Weekday evenings & weekends",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 15, commuteKm: 10,
+    rating: 4.7, ratingCount: 480,
+    description: "Evening basketball programs and summer camps throughout greater Ottawa — Orleans, Kanata, Nepean, Kemptville, and Richmond. Skills development, scrimmages, and team play. All skill levels.",
+    dates: "Year-round programs + summer camps",
+    scoreBreakdown: { cost: 62, commute: 88, coverage: 72, rating: 94, extras: 58 }
+  },
+
+  // West Ottawa Basketball Association
+  {
+    id: 345, name: "West Ottawa Basketball Association", provider: "WOBA",
+    type: "yearround", category: "sports", city: "ottawa", province: "ON", startDate: "2026-10-01", endDate: "2027-03-31",
+    ageMin: 5, ageMax: 18, color: "#5DAE3B",
+    address: "West Ottawa (Kanata/Stittsville), ON",
+    url: "http://westottawabasketball.com/",
+    hours: "Weekday evenings & Saturdays",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: true,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 18, commuteKm: 15,
+    rating: 4.5, ratingCount: 320,
+    description: "Competitive and recreational basketball for ages 5–18 in Ottawa west. House league season Oct–Mar. Development programs for all skill levels. Kanata and Stittsville gyms.",
+    dates: "Oct–Mar season",
+    scoreBreakdown: { cost: 72, commute: 85, coverage: 72, rating: 90, extras: 58 }
+  },
+
+  // Ottawa South Basketball Association
+  {
+    id: 346, name: "Ottawa South Basketball Association", provider: "OSBA",
+    type: "yearround", category: "sports", city: "ottawa", province: "ON", startDate: "2026-10-01", endDate: "2027-03-31",
+    ageMin: 5, ageMax: 18, color: "#5DAE3B",
+    address: "South Ottawa (Barrhaven area), ON",
+    url: "https://ottawasouthbasketball.ca/",
+    hours: "Weekday evenings & Saturdays",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: true,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 8, commuteKm: 5,
+    rating: 4.6, ratingCount: 410,
+    description: "Serves 700+ athletes. House league basketball for boys and girls ages 5–18 in south Ottawa. Fall/Winter 2026–27 registration opens Jun 1, 2026. Recreational and competitive streams.",
+    dates: "Oct–Mar season, registration Jun 1",
+    scoreBreakdown: { cost: 75, commute: 92, coverage: 72, rating: 92, extras: 58 }
+  },
+
+  // Kanata Dragons Soccer
+  {
+    id: 347, name: "Kanata Dragons — Youth Soccer", provider: "Kanata Dragons SC",
+    type: "summer_camp", category: "sports", city: "ottawa", province: "ON", startDate: "2026-05-25", endDate: "2026-08-14",
+    ageMin: 4, ageMax: 18, color: "#5DAE3B",
+    address: "Various fields, Kanata, ON",
+    url: "https://kanatadragons.com/summer-soccer/",
+    hours: "Weekday evenings & Saturdays",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: true,
+    lunchIncluded: false, suppliesIncluded: false,
+    commuteMins: 18, commuteKm: 15,
+    rating: 4.6, ratingCount: 560,
+    description: "Recreational soccer focused on fitness, fun, and participation. 2026 season starts May 25 for 10 weeks. Registration opens Jan 20. All ages and skill levels welcome in Kanata.",
+    dates: "May 25–Aug 14, 10-week season",
+    scoreBreakdown: { cost: 78, commute: 85, coverage: 68, rating: 92, extras: 52 }
+  },
+
+  // NextGen FC — Kanata Soccer
+  {
+    id: 348, name: "NextGen FC — Kanata Soccer Development", provider: "NextGen FC",
+    type: "yearround", category: "sports", city: "ottawa", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 4, ageMax: 17, color: "#5DAE3B",
+    address: "Kanata, Ottawa, ON",
+    url: "https://nextgenfc.ca/",
+    hours: "Weekday evenings & weekends",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: false,
+    commuteMins: 18, commuteKm: 15,
+    rating: 4.7, ratingCount: 280,
+    description: "Soccer development in Kanata with focus on ball mastery, technical skills, and mobility. Training sessions and competitive programs for youth. Professional coaching staff.",
+    dates: "Year-round training",
+    scoreBreakdown: { cost: 60, commute: 85, coverage: 68, rating: 94, extras: 52 }
+  },
+
+  // Soccer Shots — Ottawa (ages 2-8)
+  {
+    id: 349, name: "Soccer Shots Ottawa — Early Childhood", provider: "Soccer Shots",
+    type: "yearround", category: "sports", city: "ottawa", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 2, ageMax: 8, color: "#5DAE3B",
+    address: "Multiple Ottawa locations",
+    url: "https://www.soccershots.com/ottawa/",
+    hours: "Various session times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 12, commuteKm: 8,
+    rating: 4.8, ratingCount: 450,
+    description: "Age-appropriate soccer program for ages 2–8. Intro to soccer fundamentals through creative, engaging curricula. Positive coaching philosophy. Multiple Ottawa locations including Barrhaven, Kanata, and Orléans.",
+    dates: "Year-round sessions",
+    scoreBreakdown: { cost: 65, commute: 90, coverage: 65, rating: 96, extras: 58 }
+  },
+
+  // Nepean Skating Club
+  {
+    id: 350, name: "Nepean Skating Club", provider: "NSC",
+    type: "yearround", category: "skating", city: "ottawa", province: "ON", startDate: "2026-09-01", endDate: "2027-03-31",
+    ageMin: 3, ageMax: 18, color: "#1AA5A0",
+    address: "Nepean Sportsplex & local arenas, Ottawa, ON",
+    url: "https://www.nepeanskatingclub.com/",
+    hours: "Various session times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: false,
+    commuteMins: 12, commuteKm: 8,
+    rating: 4.7, ratingCount: 620,
+    description: "Full spectrum of skating instruction teaching 800+ beginners yearly. CanSkate learn-to-skate, STARSkate, and competitive figure skating. Ideal preparation for hockey, ringette, speed skating, or figure skating.",
+    dates: "Sep–Mar sessions",
+    scoreBreakdown: { cost: 62, commute: 90, coverage: 72, rating: 94, extras: 52 }
+  },
+
+  // March Kanata Skating Club
+  {
+    id: 351, name: "March Kanata Skating Club", provider: "MKSC",
+    type: "yearround", category: "skating", city: "ottawa", province: "ON", startDate: "2026-09-01", endDate: "2027-03-31",
+    ageMin: 3, ageMax: 18, color: "#1AA5A0",
+    address: "Kanata area arenas, Ottawa, ON",
+    url: "https://mkskate.ca/",
+    hours: "Various session times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: false,
+    commuteMins: 18, commuteKm: 15,
+    rating: 4.6, ratingCount: 340,
+    description: "Skate Canada programs in Kanata — Pre-school, CanSkate, STARSkate, Adult/Teen, and SynchroSkate. Registration opens early August for 2026–27 season. All ages and levels.",
+    dates: "Sep–Mar + summer break",
+    scoreBreakdown: { cost: 62, commute: 85, coverage: 72, rating: 92, extras: 52 }
+  },
+
+  // Kanata School of Music
+  {
+    id: 352, name: "Kanata School of Music", provider: "KSM",
+    type: "yearround", category: "music", city: "ottawa", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 4, ageMax: 18, color: "#7B4EA3",
+    address: "Kanata, Ottawa, ON",
+    url: "https://www.kanataschoolofmusic.com/",
+    hours: "Mon–Sat, various lesson times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: false,
+    commuteMins: 18, commuteKm: 15,
+    rating: 4.7, ratingCount: 290,
+    description: "Piano, guitar, singing, drums, bass, and ukulele lessons in Kanata. Fun, creative teaching methods for all ages and skill levels. Recitals and performance opportunities.",
+    dates: "Year-round lessons",
+    scoreBreakdown: { cost: 58, commute: 85, coverage: 72, rating: 94, extras: 52 }
+  },
+
+  // Canada Music Academy — Ottawa/Kanata/Orleans/Nepean
+  {
+    id: 353, name: "Canada Music Academy — Ottawa", provider: "Canada Music Academy",
+    type: "yearround", category: "music", city: "ottawa", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 4, ageMax: 18, color: "#7B4EA3",
+    address: "Kanata, Orleans, Nepean, Ottawa East & West",
+    url: "https://canadamusicacademy.ca/",
+    hours: "Mon–Sat, various lesson times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: false,
+    commuteMins: 12, commuteKm: 8,
+    rating: 4.6, ratingCount: 480,
+    description: "Certified teachers across the Ottawa area. Piano, guitar, voice, violin, and more. Studio and at-home lessons. Locations in Kanata, Orleans, Nepean, Ottawa East, and Ottawa West. RCM exam preparation.",
+    dates: "Year-round lessons",
+    scoreBreakdown: { cost: 55, commute: 90, coverage: 75, rating: 92, extras: 55 }
+  },
+
+  // West End Music School — Stittsville/Kanata
+  {
+    id: 354, name: "West End Music School — Stittsville & Kanata", provider: "West End Music",
+    type: "yearround", category: "music", city: "ottawa", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 4, ageMax: 18, color: "#7B4EA3",
+    address: "Stittsville & Kanata, Ottawa, ON",
+    url: "https://westendmusicschool.com/",
+    hours: "Mon–Sat, various lesson times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: false,
+    commuteMins: 20, commuteKm: 18,
+    rating: 4.7, ratingCount: 210,
+    description: "Private music school offering piano, vocal, violin, cello, winds, and horn lessons. Stittsville and Kanata locations. All ages and levels, from beginners to advanced students.",
+    dates: "Year-round lessons",
+    scoreBreakdown: { cost: 55, commute: 82, coverage: 72, rating: 94, extras: 52 }
+  },
+
+  // Orleans Music Studio
+  {
+    id: 355, name: "Orleans Music Studio", provider: "OMS",
+    type: "yearround", category: "music", city: "ottawa", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 4, ageMax: 18, color: "#7B4EA3",
+    address: "Orleans, Ottawa, ON",
+    url: "https://www.orleansmusicstudio.ca/",
+    hours: "Mon–Sat, various lesson times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: false,
+    commuteMins: 25, commuteKm: 22,
+    rating: 4.6, ratingCount: 180,
+    description: "Guitar, piano, and singing lessons in Orleans. Experienced instructors working with children of all ages and levels. Community recitals and performance opportunities.",
+    dates: "Year-round lessons",
+    scoreBreakdown: { cost: 60, commute: 78, coverage: 68, rating: 92, extras: 52 }
+  },
+
+  // Ottawa School of Theatre — Orleans & Central
+  {
+    id: 356, name: "Ottawa School of Theatre", provider: "OST",
+    type: "yearround", category: "drama", city: "ottawa", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 5, ageMax: 18, color: "#7B4EA3",
+    address: "Shenkman Arts Centre (Orleans) & Ottawa Rideau Hub",
+    url: "https://ost-eto.ca/",
+    hours: "After-school & weekends",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 22, commuteKm: 18,
+    rating: 4.7, ratingCount: 420,
+    description: "30 years of professional acting classes and drama programs in English and French. Children, teens, and adults. Locations at Shenkman Arts Centre (Orleans) and Ottawa Rideau Community Hub. End-of-term performances.",
+    dates: "Year-round classes + summer/March break camps",
+    scoreBreakdown: { cost: 55, commute: 78, coverage: 78, rating: 94, extras: 60 }
+  },
+
+  // Ottawa Valley Theatre Kids
+  {
+    id: 357, name: "Ottawa Valley Theatre Kids", provider: "OVTK",
+    type: "yearround", category: "drama", city: "ottawa", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 4, ageMax: 14, color: "#7B4EA3",
+    address: "Ottawa Valley area, ON",
+    url: "https://ottawavalleytheatrekids.com/programs",
+    hours: "After-school & weekends",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 30, commuteKm: 25,
+    rating: 4.8, ratingCount: 150,
+    description: "Drama Discovery for kindergarteners, plus youth theatre programs. Self-expression, confidence, and social skills through play, song, movement, and storytelling. Ages 4–14.",
+    dates: "Year-round programs",
+    scoreBreakdown: { cost: 62, commute: 72, coverage: 72, rating: 96, extras: 58 }
+  },
+
+  // The Flava Factory — Ottawa Hip Hop Dance
+  {
+    id: 358, name: "The Flava Factory — Hip Hop Dance", provider: "Flava Factory",
+    type: "yearround", category: "dance", city: "ottawa", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 7, ageMax: 18, color: "#7B4EA3",
+    address: "Ottawa, ON",
+    url: "https://www.flavafactory.ca/",
+    hours: "After-school & weekends",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: false,
+    commuteMins: 18, commuteKm: 14,
+    rating: 4.8, ratingCount: 320,
+    description: "Ottawa's only studio dedicated to urban dance — hip hop, breaking, popping, locking, house, and street styles. Positive, creative environment. Youth and adult classes. Ages 7+.",
+    dates: "Year-round classes",
+    scoreBreakdown: { cost: 60, commute: 85, coverage: 68, rating: 96, extras: 52 }
+  },
+
+  // Moov — Hip Hop & Street Dance Ottawa
+  {
+    id: 359, name: "Moov — Street Dance Classes", provider: "Moov Ottawa",
+    type: "yearround", category: "dance", city: "ottawa", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 7, ageMax: 18, color: "#7B4EA3",
+    address: "Ottawa, ON",
+    url: "https://www.moovottawa.com/",
+    hours: "After-school & weekends",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: false,
+    commuteMins: 18, commuteKm: 14,
+    rating: 4.7, ratingCount: 210,
+    description: "Street dance classes and shows — Hip Hop, House, Waacking, Afrobeats, and more. Ages 7–12 youth classes and adults 18+. Performance opportunities and community showcases.",
+    dates: "Year-round classes",
+    scoreBreakdown: { cost: 60, commute: 85, coverage: 68, rating: 94, extras: 52 }
+  },
+
+  // Nepean Artistic Swim Club
+  {
+    id: 360, name: "Nepean Artistic Swim Club", provider: "NASC",
+    type: "yearround", category: "swimming", city: "ottawa", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 5, ageMax: 18, color: "#1AA5A0",
+    address: "Nepean, Ottawa, ON",
+    url: "https://nepeansynchro.com/",
+    hours: "Various training times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 12, commuteKm: 8,
+    rating: 4.7, ratingCount: 180,
+    description: "Recreational and competitive artistic (synchronized) swimming for boys and girls ages 5–18. Fun team environment for learning specific artistic swimming skills. Winter 2026 registration opens mid-December.",
+    dates: "Sep–Jun season",
+    scoreBreakdown: { cost: 58, commute: 90, coverage: 68, rating: 94, extras: 55 }
+  },
+
+  // Ottawa Swim Club
+  {
+    id: 361, name: "Ottawa Swim Club", provider: "OSC",
+    type: "yearround", category: "swimming", city: "ottawa", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 5, ageMax: 18, color: "#1AA5A0",
+    address: "Ottawa, ON",
+    url: "https://ottawaswimclub.ca/",
+    hours: "Various training times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: false, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 18, commuteKm: 14,
+    rating: 4.6, ratingCount: 310,
+    description: "Competitive swim club offering year-round training. Development, age group, and senior competitive programs. Provincial and national level competition. All welcome from learn-to-swim graduates.",
+    dates: "Year-round training",
+    scoreBreakdown: { cost: 50, commute: 85, coverage: 72, rating: 92, extras: 55 }
+  },
+
+  // LOAM Clay Studio — Ottawa Pottery
+  {
+    id: 362, name: "LOAM Clay Studio — Kids Pottery", provider: "LOAM",
+    type: "yearround", category: "arts", city: "ottawa", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 8, ageMax: 17, color: "#7B4EA3",
+    address: "Ottawa, ON",
+    url: "https://loamclaystudio.ca/",
+    hours: "After-school & weekends",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 18, commuteKm: 14,
+    rating: 4.8, ratingCount: 220,
+    description: "Teen pottery programs in a working clay studio. Workshops, March Break projects, and summer camps. Hands-on wheel throwing and hand-building with real tools and techniques. Ages 8+.",
+    dates: "Year-round classes + camps",
+    scoreBreakdown: { cost: 55, commute: 85, coverage: 65, rating: 96, extras: 58 }
+  },
+
+  // MakerKids Ottawa — STEM After-School
+  {
+    id: 363, name: "MakerKids Ottawa — Coding & Robotics", provider: "MakerKids",
+    type: "yearround", category: "stem", city: "ottawa", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 6, ageMax: 13, color: "#1AA5A0",
+    address: "Ottawa, ON",
+    url: "https://makerkids.com/ottawa/",
+    hours: "After-school & weekends",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 18, commuteKm: 14,
+    rating: 4.6, ratingCount: 280,
+    description: "Innovative after-school STEM program for ages 6–13. Robotics, Minecraft modding, and Scratch programming. Encourages creativity and collaboration. Small group sizes.",
+    dates: "Year-round after-school + camps",
+    scoreBreakdown: { cost: 55, commute: 85, coverage: 72, rating: 92, extras: 62 }
+  },
+
+  // Code Ninjas — Barrhaven
+  {
+    id: 364, name: "Code Ninjas — Barrhaven", provider: "Code Ninjas",
+    type: "yearround", category: "stem", city: "ottawa", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 5, ageMax: 14, color: "#1AA5A0",
+    address: "Barrhaven, Ottawa, ON",
+    url: "https://www.codeninjas.com/barrhaven-on-ca",
+    hours: "After-school & weekends",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 8, commuteKm: 5,
+    rating: 4.7, ratingCount: 190,
+    description: "Hands-on coding, robotics, and AI for kids in Barrhaven. Block coding, Minecraft, Roblox programming, and hands-on robotics. Game-based learning in a fun dojo setting. Ages 5–14.",
+    dates: "Year-round after-school + camps",
+    scoreBreakdown: { cost: 50, commute: 92, coverage: 72, rating: 94, extras: 62 }
+  },
+
+  // Ottawa Robotics Academy
+  {
+    id: 365, name: "Ottawa Robotics Academy", provider: "ORA",
+    type: "yearround", category: "stem", city: "ottawa", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 6, ageMax: 16, color: "#1AA5A0",
+    address: "Ottawa, ON",
+    url: "https://ottawaroboticsacademy.ca/",
+    hours: "After-school & weekends",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 18, commuteKm: 14,
+    rating: 4.7, ratingCount: 220,
+    description: "Educational robotics programs — 'Robotics is my Sport.' LEGO robotics, coding, and engineering challenges. Competition preparation. After-school classes and summer camps. Ages 6–16.",
+    dates: "Year-round classes + camps",
+    scoreBreakdown: { cost: 55, commute: 85, coverage: 75, rating: 94, extras: 62 }
+  },
+
+  // Olympia Gymnastics — Ottawa
+  {
+    id: 366, name: "Olympia Gymnastics — Ottawa", provider: "Olympia Gymnastics",
+    type: "yearround", category: "gymnastics", city: "ottawa", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 2, ageMax: 18, color: "#5DAE3B",
+    address: "Ottawa, ON",
+    url: "https://olympiagymnastics.ca/recreational/",
+    hours: "Mon–Sat, various class times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 18, commuteKm: 14,
+    rating: 4.7, ratingCount: 380,
+    description: "Recreational and competitive gymnastics. Parent-and-tot through competitive levels. Professional coaching, state-of-the-art equipment. Birthday parties and camps available.",
+    dates: "Year-round sessions + camps",
+    scoreBreakdown: { cost: 58, commute: 85, coverage: 75, rating: 94, extras: 58 }
+  },
+
+  // Kanata GymnoSphere
+  {
+    id: 367, name: "Kanata GymnoSphere", provider: "GymnoSphere",
+    type: "yearround", category: "gymnastics", city: "ottawa", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 2, ageMax: 17, color: "#5DAE3B",
+    address: "Kanata, Ottawa, ON",
+    url: "https://www.kanatagymnastics.ca/",
+    hours: "Mon–Sat, various class times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 18, commuteKm: 15,
+    rating: 4.6, ratingCount: 290,
+    description: "Gymnastics, Mini Ninjas (gymnastics + martial arts + obstacle training), and recreational programs in Kanata. Builds confidence, coordination, and listening skills. Toddler through teen programs.",
+    dates: "Year-round sessions + camps",
+    scoreBreakdown: { cost: 60, commute: 85, coverage: 72, rating: 92, extras: 58 }
+  },
+
+  // Phoenix Martial Arts Academy — Ottawa
+  {
+    id: 368, name: "Phoenix Martial Arts Academy — Ottawa", provider: "Phoenix Taekwondo",
+    type: "yearround", category: "martial_arts", city: "ottawa", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 4, ageMax: 17, color: "#E8842C",
+    address: "Ottawa, ON",
+    url: "https://ottawamartialarts.ca/",
+    hours: "Mon–Sat, various class times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: false,
+    commuteMins: 15, commuteKm: 12,
+    rating: 4.7, ratingCount: 340,
+    description: "Innovative children's taekwondo program developing physical, mental, and cognitive skills. Sports Canada certified instructors. Safe, nurturing environment. Ages 4+.",
+    dates: "Year-round classes",
+    scoreBreakdown: { cost: 55, commute: 88, coverage: 72, rating: 94, extras: 52 }
+  },
+
+  // Bergeron Martial Arts — Ottawa
+  {
+    id: 369, name: "Bergeron Martial Arts — Kids Karate", provider: "Bergeron",
+    type: "yearround", category: "martial_arts", city: "ottawa", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 5, ageMax: 17, color: "#E8842C",
+    address: "Ottawa, ON",
+    url: "https://karateottawa.com/",
+    hours: "Mon–Sat, various class times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: false,
+    commuteMins: 15, commuteKm: 12,
+    rating: 4.6, ratingCount: 420,
+    description: "20+ years creating happier, healthier kids through karate. Kids classes from age 5. Builds discipline, confidence, and fitness. Self-defence and traditional martial arts values.",
+    dates: "Year-round classes",
+    scoreBreakdown: { cost: 55, commute: 88, coverage: 72, rating: 92, extras: 52 }
+  },
+
+  // Ottawa School of Art — Orleans & Kanata Camps
+  {
+    id: 370, name: "Ottawa School of Art — Summer Art Camps", provider: "OSA",
+    type: "summer_camp", category: "arts", city: "ottawa", province: "ON", startDate: "2026-06-29", endDate: "2026-08-21",
+    ageMin: 6, ageMax: 16, color: "#7B4EA3",
+    address: "ByWard Market, Orléans & Kanata campuses",
+    url: "https://www.artottawa.ca/programs/camps",
+    hours: "9am–4pm",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 350, priceDaily: 0, siblingDiscount: true, earlyBird: true,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 20, commuteKm: 16,
+    rating: 4.7, ratingCount: 520,
+    description: "Summer art camps at 3 campuses — ByWard Market (8 weeks), Orléans (8 weeks), and Kanata (4 weeks). Painting, sculpture, drawing, ceramics, photography, and digital arts. Ages 6–16. $310–$405/week.",
+    dates: "Jun 29–Aug 21, weekly sessions",
+    scoreBreakdown: { cost: 55, commute: 82, coverage: 78, rating: 94, extras: 62 }
+  },
+
+  // Hoop N' Jam — Toddler/Preschool Basketball
+  {
+    id: 371, name: "Hoop N' Jam — Kids Basketball", provider: "Hoop N' Jam",
+    type: "yearround", category: "sports", city: "ottawa", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 2, ageMax: 8, color: "#5DAE3B",
+    address: "Multiple Ottawa locations",
+    url: "https://www.hoopnjam.ca/",
+    hours: "Various session times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 12, commuteKm: 8,
+    rating: 4.8, ratingCount: 280,
+    description: "Year-round basketball classes for toddlers and preschoolers ages 1.5–8. Scaled equipment, fun drills, and positive coaching. Multiple Ottawa locations.",
+    dates: "Year-round sessions",
+    scoreBreakdown: { cost: 62, commute: 90, coverage: 65, rating: 96, extras: 55 }
+  },
+
+  // ── ONTARIO-WIDE EXPANSION — GYMNASTICS, SWIMMING, MARTIAL ARTS, SKATING, THEATRE, MUSIC, ESCAPE ROOMS, TUTORING, ATTRACTIONS ──
+
+  // Toronto Premier Gymnastics
+  {
+    id: 306, name: "Toronto Premier Gymnastics", provider: "TPG",
+    type: "yearround", category: "gymnastics", city: "toronto", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 3, ageMax: 18, color: "#5DAE3B",
+    address: "Riverdale & Scarborough locations, Toronto, ON",
+    url: "https://torontopremiergymnastics.com/",
+    hours: "Mon–Sat, various class times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 270, commuteKm: 450,
+    rating: 4.7, ratingCount: 520,
+    description: "Recreational and competitive gymnastics at two Toronto locations (Riverdale & Scarborough). NCCP-certified coaches, state-of-the-art equipment. Classes for toddlers through competitive athletes.",
+    dates: "Year-round, Sep–Jun sessions + summer camps",
+    scoreBreakdown: { cost: 60, commute: 20, coverage: 75, rating: 94, extras: 55 }
+  },
+
+  // Tumblers Gymnastics Centre — Ottawa
+  {
+    id: 307, name: "Tumblers Gymnastics Centre", provider: "Tumblers",
+    type: "yearround", category: "gymnastics", city: "ottawa", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 2, ageMax: 18, color: "#5DAE3B",
+    address: "1475 Star Top Rd, Ottawa, ON",
+    url: "https://www.tumblersgymnastics.ca/",
+    hours: "Mon–Sat, various class times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 20, commuteKm: 18,
+    rating: 4.6, ratingCount: 380,
+    description: "Recreational and competitive gymnastics, birthday parties, camps, and drop-in sessions. Gymnastics Ontario member club with NCCP-certified coaches. Programs from parent-tot to competitive levels.",
+    dates: "Year-round sessions + summer/March break camps",
+    scoreBreakdown: { cost: 65, commute: 82, coverage: 75, rating: 92, extras: 60 }
+  },
+
+  // The Little Gym — London
+  {
+    id: 308, name: "The Little Gym — London", provider: "The Little Gym",
+    type: "yearround", category: "gymnastics", city: "london", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 1, ageMax: 12, color: "#5DAE3B",
+    address: "London, ON",
+    url: "https://www.thelittlegym.com/ontario-london/",
+    hours: "Mon–Sat, various class times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 380, commuteKm: 540,
+    rating: 4.8, ratingCount: 210,
+    description: "Gymnastics, dance, sports skills, and enrichment classes for kids 4 months–12 years. Builds confidence and coordination through movement in a fun, nurturing environment. Parents & Me through grade-school programs.",
+    dates: "Year-round sessions + camps",
+    scoreBreakdown: { cost: 60, commute: 10, coverage: 70, rating: 96, extras: 55 }
+  },
+
+  // YMCA Ottawa — Swim Lessons
+  {
+    id: 309, name: "YMCA Ottawa — Swim Lessons", provider: "YMCA National Capital Region",
+    type: "yearround", category: "swimming", city: "ottawa", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 3, ageMax: 17, color: "#1AA5A0",
+    address: "Multiple YMCA locations, Ottawa, ON",
+    url: "https://www.ymcaottawa.ca/programs-services/health-fitness-aquatics/aquatics-programs/swim-lessons",
+    hours: "Various class times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: false, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 18, commuteKm: 15,
+    rating: 4.5, ratingCount: 1800,
+    description: "Certified swim instruction at multiple Ottawa YMCA locations. Otter program for beginners ages 6–12, YMCA Star Program for advanced swimmers. Max 12–16 students per group. Dolphins Swim Team for competitive swimmers.",
+    dates: "Year-round, sessions every 10 weeks",
+    scoreBreakdown: { cost: 75, commute: 85, coverage: 78, rating: 90, extras: 55 }
+  },
+
+  // YMCA GTA — Swim Lessons
+  {
+    id: 310, name: "YMCA Greater Toronto — Swim Programs", provider: "YMCA GTA",
+    type: "yearround", category: "swimming", city: "toronto", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 3, ageMax: 17, color: "#1AA5A0",
+    address: "Multiple YMCA locations, Toronto & GTA",
+    url: "https://www.ymcagta.org/health-and-fitness/children-programs",
+    hours: "Various class times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: false, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 270, commuteKm: 450,
+    rating: 4.5, ratingCount: 3200,
+    description: "YMCA Learn to Swim program across Greater Toronto. Preschool aquatics, school-age levels, and competitive swim teams. Private lessons available. Registration opens Jun 18 for aquatics programs.",
+    dates: "Year-round sessions",
+    scoreBreakdown: { cost: 72, commute: 20, coverage: 78, rating: 90, extras: 55 }
+  },
+
+  // Silver 7 Martial Arts — Barrhaven & Kanata
+  {
+    id: 311, name: "Silver 7 Martial Arts — Kids Program", provider: "Silver 7",
+    type: "yearround", category: "martial_arts", city: "ottawa", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 4, ageMax: 17, color: "#E8842C",
+    address: "Barrhaven & Kanata locations, Ottawa, ON",
+    url: "https://silver7martialarts.com/childrens-martial-arts/",
+    hours: "Mon–Sat, various class times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: false,
+    commuteMins: 10, commuteKm: 5,
+    rating: 4.8, ratingCount: 340,
+    description: "Children's martial arts in Barrhaven & Kanata. Curriculum designed to improve fitness, self-confidence, and martial arts skills. Ages 4+. Two convenient south-Ottawa locations.",
+    dates: "Year-round classes",
+    scoreBreakdown: { cost: 60, commute: 92, coverage: 72, rating: 96, extras: 52 }
+  },
+
+  // Douvris Martial Arts — Ottawa
+  {
+    id: 312, name: "Douvris Martial Arts — Kids & Youth", provider: "Douvris",
+    type: "yearround", category: "martial_arts", city: "ottawa", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 4, ageMax: 17, color: "#E8842C",
+    address: "Multiple locations, Ottawa, ON",
+    url: "https://douvris.com/",
+    hours: "Mon–Sat, various class times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: false,
+    commuteMins: 15, commuteKm: 12,
+    rating: 4.7, ratingCount: 620,
+    description: "40+ years of martial arts instruction. Kids and youth karate, kickboxing, and self-defence programs. Builds confidence, discipline, and fitness. Multiple Ottawa locations. March break and summer camps available.",
+    dates: "Year-round classes + seasonal camps",
+    scoreBreakdown: { cost: 55, commute: 88, coverage: 75, rating: 94, extras: 58 }
+  },
+
+  // Northern Karate Schools — Toronto
+  {
+    id: 313, name: "Northern Karate Schools — Kids Program", provider: "Northern Karate",
+    type: "yearround", category: "martial_arts", city: "toronto", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 4, ageMax: 17, color: "#E8842C",
+    address: "Multiple locations, Toronto, ON",
+    url: "https://northernkarateschools.com/",
+    hours: "Mon–Sat, various class times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: false,
+    commuteMins: 270, commuteKm: 450,
+    rating: 4.7, ratingCount: 890,
+    description: "Toronto's top-rated karate school with multiple GTA locations. Kids, youth, and adult programs. Self-defence, discipline, fitness, and confidence building. Summer and March break camps.",
+    dates: "Year-round classes + camps",
+    scoreBreakdown: { cost: 55, commute: 20, coverage: 75, rating: 94, extras: 55 }
+  },
+
+  // Capital Taekwondo — Nepean
+  {
+    id: 314, name: "Capital Taekwondo — Nepean", provider: "Capital Taekwondo",
+    type: "yearround", category: "martial_arts", city: "ottawa", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 4, ageMax: 17, color: "#E8842C",
+    address: "Nepean, Ottawa, ON",
+    url: "https://capitaltaekwondo.ca/",
+    hours: "Mon–Sat, various class times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: false,
+    commuteMins: 15, commuteKm: 10,
+    rating: 4.6, ratingCount: 210,
+    description: "Taekwondo classes for kids and youth in Nepean. Olympic-style taekwondo with certified instructors. Free trial class available. Builds discipline, coordination, and self-confidence.",
+    dates: "Year-round classes",
+    scoreBreakdown: { cost: 62, commute: 88, coverage: 68, rating: 92, extras: 52 }
+  },
+
+  // Skate Canada CanSkate — Ottawa
+  {
+    id: 315, name: "CanSkate — Ottawa Skating Clubs", provider: "Skate Canada / Skate Ontario",
+    type: "yearround", category: "skating", city: "ottawa", province: "ON", startDate: "2026-09-01", endDate: "2027-03-31",
+    ageMin: 3, ageMax: 17, color: "#1AA5A0",
+    address: "Multiple arenas, Ottawa, ON",
+    url: "https://skateontario.org/programs/canskate/",
+    hours: "Various class times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: false, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: false,
+    commuteMins: 15, commuteKm: 10,
+    rating: 4.6, ratingCount: 1400,
+    description: "Canada's premier learn-to-skate program. NCCP-certified coaches teach skating fundamentals for figure skating, hockey, ringette, or recreational skating. Available at 200+ clubs across Ontario including multiple Ottawa locations.",
+    dates: "Sep–Mar sessions at various clubs",
+    scoreBreakdown: { cost: 70, commute: 88, coverage: 72, rating: 92, extras: 50 }
+  },
+
+  // North Toronto Skating Club
+  {
+    id: 316, name: "North Toronto Skating Club", provider: "NTSC",
+    type: "yearround", category: "skating", city: "toronto", province: "ON", startDate: "2026-09-01", endDate: "2027-03-31",
+    ageMin: 3, ageMax: 18, color: "#1AA5A0",
+    address: "North Toronto Memorial Arena, Toronto, ON",
+    url: "https://northtorontoskating.com/programs/",
+    hours: "Various class times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: false,
+    commuteMins: 270, commuteKm: 450,
+    rating: 4.7, ratingCount: 350,
+    description: "Learn-to-skate and figure skating programs. CanSkate, STARSkate, and competitive programs. Summer skating camp Jun 29–Aug 14. Registration opens Aug 1 (members) / Aug 15 (new).",
+    dates: "Sep–Mar + summer camp Jun–Aug",
+    scoreBreakdown: { cost: 60, commute: 20, coverage: 72, rating: 94, extras: 52 }
+  },
+
+  // North Toronto Hockey — Learn to Play
+  {
+    id: 317, name: "North Toronto Hockey — Learn to Play", provider: "NT Hockey",
+    type: "yearround", category: "skating", city: "toronto", province: "ON", startDate: "2026-09-01", endDate: "2027-03-31",
+    ageMin: 4, ageMax: 12, color: "#1AA5A0",
+    address: "Various arenas, North Toronto, ON",
+    url: "https://nthockey.ca/learn-to-play/",
+    hours: "Weekday & weekend sessions",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: false,
+    commuteMins: 270, commuteKm: 450,
+    rating: 4.7, ratingCount: 480,
+    description: "One of Canada's most comprehensive hockey skills programs. Professional instructors teach skating and hockey fundamentals. Perfect launching pad into house league or competitive hockey. Registration opens Apr 1.",
+    dates: "Sep 2026–Mar 2027 season",
+    scoreBreakdown: { cost: 55, commute: 20, coverage: 72, rating: 94, extras: 52 }
+  },
+
+  // Great Big Theatre Company — Toronto
+  {
+    id: 318, name: "Great Big Theatre Company — Kids Acting", provider: "GBTC",
+    type: "yearround", category: "drama", city: "toronto", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 6, ageMax: 14, color: "#7B4EA3",
+    address: "Toronto, ON",
+    url: "https://www.gbtc.com/",
+    hours: "After-school & weekend classes",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: true,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 270, commuteKm: 450,
+    rating: 4.8, ratingCount: 420,
+    description: "Acting, drama, and theatre arts for ages 6–14. Programs include plays, mime, improvisation, theatre games, and musical theatre, concluding with public performances. Full-day summer and March break camps.",
+    dates: "Year-round classes + summer/March break camps",
+    scoreBreakdown: { cost: 55, commute: 20, coverage: 78, rating: 96, extras: 62 }
+  },
+
+  // Youth Theatre Canada — Multi-City
+  {
+    id: 319, name: "Youth Theatre Canada", provider: "Youth Theatre Canada",
+    type: "yearround", category: "drama", city: "toronto", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 8, ageMax: 18, color: "#7B4EA3",
+    address: "Hamilton, Toronto & Ottawa locations",
+    url: "https://www.youththeatrecanada.com/",
+    hours: "After-school & weekend",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 270, commuteKm: 450,
+    rating: 4.6, ratingCount: 280,
+    description: "Youth theatre programs in Hamilton, Toronto, and Ottawa. Beginner (8–11), Intermediate (10–14), and Advanced (13–18) streams. Performance-based learning with end-of-term showcases.",
+    dates: "2026–2027 school-year sessions",
+    scoreBreakdown: { cost: 60, commute: 20, coverage: 75, rating: 92, extras: 58 }
+  },
+
+  // ARTSies — Toronto Musical Theatre
+  {
+    id: 320, name: "ARTSies — Musical Theatre for Kids", provider: "ARTSies Inc.",
+    type: "yearround", category: "drama", city: "toronto", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 4, ageMax: 17, color: "#7B4EA3",
+    address: "Toronto, Scarborough, Markham & York Region",
+    url: "https://www.artsiesinc.com/",
+    hours: "After-school & weekend classes",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: true,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 270, commuteKm: 450,
+    rating: 4.7, ratingCount: 310,
+    description: "Musical theatre classes, summer camps, and performances for kids and teenagers. Locations in Toronto, Scarborough, Markham, and York Region. Acting, singing, and dance in one program.",
+    dates: "Year-round classes + summer camps",
+    scoreBreakdown: { cost: 58, commute: 20, coverage: 78, rating: 94, extras: 60 }
+  },
+
+  // Royal Conservatory — Oscar Peterson School of Music
+  {
+    id: 321, name: "Royal Conservatory — Kids Music Lessons", provider: "The Royal Conservatory",
+    type: "yearround", category: "music", city: "toronto", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 4, ageMax: 17, color: "#7B4EA3",
+    address: "273 Bloor St W, Toronto, ON",
+    url: "https://www.rcmusic.com/learning/oscar-peterson-school-of-music/music-lessons-for-kids-and-teens",
+    hours: "Mon–Sat, various lesson times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: false, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: false,
+    commuteMins: 270, commuteKm: 450,
+    rating: 4.8, ratingCount: 1200,
+    description: "Canada's premier music school. Piano, guitar, voice, violin, cello, flute, drums, and carnatic violin lessons for kids 4–17. Oscar Peterson School of Music at the Royal Conservatory in downtown Toronto.",
+    dates: "Year-round lessons, Sep–Jun terms",
+    scoreBreakdown: { cost: 45, commute: 20, coverage: 80, rating: 96, extras: 50 }
+  },
+
+  // Ontario Conservatory of Music
+  {
+    id: 322, name: "Ontario Conservatory of Music (OCOM)", provider: "OCOM",
+    type: "yearround", category: "music", city: "toronto", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 4, ageMax: 18, color: "#7B4EA3",
+    address: "Multiple locations across Ontario",
+    url: "https://ocom.ca/",
+    hours: "Various lesson times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: false,
+    commuteMins: 270, commuteKm: 450,
+    rating: 4.6, ratingCount: 680,
+    description: "Certified music programs at locations throughout Ontario. Piano, ukulele, guitar, violin, singing & vocal training, band, and music theory. RCM exam preparation. All ages and levels.",
+    dates: "Year-round lessons",
+    scoreBreakdown: { cost: 55, commute: 20, coverage: 75, rating: 92, extras: 52 }
+  },
+
+  // Allegro Music School — Ottawa
+  {
+    id: 323, name: "Allegro Music School — Ottawa", provider: "Allegro",
+    type: "yearround", category: "music", city: "ottawa", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 4, ageMax: 18, color: "#7B4EA3",
+    address: "Ottawa, ON",
+    url: "https://www.allegromusicschools.com/ottawa",
+    hours: "Mon–Sat, various lesson times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: false,
+    commuteMins: 15, commuteKm: 12,
+    rating: 4.7, ratingCount: 420,
+    description: "35+ years providing high-quality music lessons in Ottawa. Piano, violin, guitar, singing, drums, and more. Certified instructors, all skill levels. Recitals and RCM exam preparation.",
+    dates: "Year-round lessons",
+    scoreBreakdown: { cost: 58, commute: 88, coverage: 75, rating: 94, extras: 52 }
+  },
+
+  // Jigsaw Escape Room — Ottawa (kids-friendly)
+  {
+    id: 324, name: "Jigsaw Escape Room — Ottawa", provider: "Jigsaw",
+    type: "yearround", category: "escape_room", city: "ottawa", province: "ON", startDate: "2026-01-01", endDate: "2026-12-31",
+    ageMin: 8, ageMax: 18, color: "#E8842C",
+    address: "ByWard Market, Ottawa, ON",
+    url: "https://www.jigsawescape.com/",
+    hours: "Daily 10am–10pm",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 30, siblingDiscount: false, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: false,
+    commuteMins: 22, commuteKm: 18,
+    rating: 4.7, ratingCount: 1100,
+    description: "8 escape rooms in Ottawa's ByWard Market with challenges in English and French. Family-friendly rooms available for ages 8+. Birthday party packages. 60-minute adventures with varying difficulty levels.",
+    dates: "Open year-round",
+    scoreBreakdown: { cost: 72, commute: 78, coverage: 65, rating: 94, extras: 55 }
+  },
+
+  // Looking Glass Adventures — Toronto Escape Rooms
+  {
+    id: 325, name: "Looking Glass Adventures — Family Escape Rooms", provider: "Looking Glass",
+    type: "yearround", category: "escape_room", city: "toronto", province: "ON", startDate: "2026-01-01", endDate: "2026-12-31",
+    ageMin: 7, ageMax: 18, color: "#E8842C",
+    address: "Toronto, ON",
+    url: "https://www.lookingglassadventures.com/",
+    hours: "Daily, various booking times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 35, siblingDiscount: false, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: false,
+    commuteMins: 270, commuteKm: 450,
+    rating: 4.8, ratingCount: 780,
+    description: "Toronto's most welcoming family escape room studio. Rooms designed like interactive stories with clever puzzles kids can solve. Private bookings only — no strangers in your group. Perfect for beginners and mixed-age families.",
+    dates: "Open year-round",
+    scoreBreakdown: { cost: 68, commute: 20, coverage: 65, rating: 96, extras: 55 }
+  },
+
+  // Escapology — London ON
+  {
+    id: 326, name: "Escapology — London Escape Rooms", provider: "Escapology",
+    type: "yearround", category: "escape_room", city: "london", province: "ON", startDate: "2026-01-01", endDate: "2026-12-31",
+    ageMin: 8, ageMax: 18, color: "#E8842C",
+    address: "London, ON",
+    url: "https://www.escapology.com/en/london-canada",
+    hours: "Daily, various booking times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 32, siblingDiscount: false, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: false,
+    commuteMins: 380, commuteKm: 540,
+    rating: 4.5, ratingCount: 450,
+    description: "Multi-themed escape rooms in London, Ontario. Family-friendly and team challenges. Birthday party packages. Multiple difficulty levels suitable for kids, teens, and adults.",
+    dates: "Open year-round",
+    scoreBreakdown: { cost: 70, commute: 10, coverage: 62, rating: 90, extras: 52 }
+  },
+
+  // Oxford Learning — Ottawa Tutoring
+  {
+    id: 327, name: "Oxford Learning — Ottawa Tutoring", provider: "Oxford Learning",
+    type: "yearround", category: "tutoring", city: "ottawa", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 5, ageMax: 18, color: "#1AA5A0",
+    address: "Multiple Ottawa locations",
+    url: "https://oxfordlearning.com/region/ottawa/",
+    hours: "Mon–Sat, various session times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 15, commuteKm: 10,
+    rating: 4.5, ratingCount: 520,
+    description: "Professional tutoring in math, reading, writing, and organization skills. Personalized programs adapted to each child's needs. Multiple Ottawa locations. JK through Grade 12.",
+    dates: "Year-round programs",
+    scoreBreakdown: { cost: 40, commute: 88, coverage: 72, rating: 90, extras: 60 }
+  },
+
+  // Kumon — Ontario-Wide
+  {
+    id: 328, name: "Kumon — Math & Reading Centres", provider: "Kumon",
+    type: "yearround", category: "tutoring", city: "toronto", province: "ON", startDate: "2026-01-01", endDate: "2026-12-31",
+    ageMin: 4, ageMax: 18, color: "#1AA5A0",
+    address: "100+ locations across Ontario",
+    url: "https://www.kumon.com/ca-en/locations",
+    hours: "Mon–Fri, various session times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: false, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 15, commuteKm: 10,
+    rating: 4.3, ratingCount: 4500,
+    description: "World's largest after-school math and reading program. Self-paced worksheets build mastery from basics through advanced levels. 100+ Ontario locations. ~$50 registration + $100–$150/month per subject.",
+    dates: "Year-round, continuous enrollment",
+    scoreBreakdown: { cost: 50, commute: 88, coverage: 68, rating: 86, extras: 60 }
+  },
+
+  // Sylvan Learning — Ontario
+  {
+    id: 329, name: "Sylvan Learning — Tutoring & STEM Camps", provider: "Sylvan Learning",
+    type: "yearround", category: "tutoring", city: "toronto", province: "ON", startDate: "2026-01-01", endDate: "2026-12-31",
+    ageMin: 5, ageMax: 18, color: "#1AA5A0",
+    address: "Burlington, Hamilton, Oakville, Toronto, London, Ottawa, ON",
+    url: "https://www.ourkids.net/camp/sylvan-learning-centres.php",
+    hours: "Mon–Sat, various session times",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 270, commuteKm: 450,
+    rating: 4.4, ratingCount: 1800,
+    description: "35+ years of supplemental education. Professional tutoring, academic enrichment, and EDGE/STEM camps for JK–Grade 12. Locations in Burlington, Hamilton, Oakville, Markham, Toronto, London, and Ottawa.",
+    dates: "Year-round tutoring + seasonal camps",
+    scoreBreakdown: { cost: 42, commute: 20, coverage: 75, rating: 88, extras: 62 }
+  },
+
+  // Canada's Wonderland — Vaughan
+  {
+    id: 330, name: "Canada's Wonderland", provider: "Six Flags",
+    type: "summer_camp", category: "multi", city: "vaughan", province: "ON", startDate: "2026-05-03", endDate: "2026-10-31",
+    ageMin: 3, ageMax: 18, color: "#1AA5A0",
+    address: "1 Canada's Wonderland Dr, Vaughan, ON",
+    url: "https://www.sixflags.com/canadaswonderland",
+    hours: "Daily 10am–10pm (summer)",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 55, siblingDiscount: false, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: false,
+    commuteMins: 260, commuteKm: 440,
+    rating: 4.3, ratingCount: 55000,
+    description: "200+ attractions including 18 roller coasters, KidZville and Planet Snoopy (25+ kids rides), Splash Works 20-acre water park, and KidZfest (Jul 22–Aug 2). Season passes available. Chaperone required for ages 15 and under after 4pm.",
+    dates: "May 3–Oct 31, daily in summer",
+    scoreBreakdown: { cost: 42, commute: 20, coverage: 92, rating: 86, extras: 50 }
+  },
+
+  // Great Wolf Lodge — Niagara Falls
+  {
+    id: 331, name: "Great Wolf Lodge — Niagara Falls", provider: "Great Wolf Lodge",
+    type: "yearround", category: "playground", city: "niagara_falls", province: "ON", startDate: "2026-01-01", endDate: "2026-12-31",
+    ageMin: 2, ageMax: 17, color: "#E8842C",
+    address: "3950 Victoria Ave, Niagara Falls, ON",
+    url: "https://www.greatwolf.com/niagara",
+    hours: "Indoor waterpark open year-round, 84°F",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: false, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: false,
+    commuteMins: 310, commuteKm: 530,
+    rating: 4.2, ratingCount: 12000,
+    description: "100,000 sq ft indoor water park at 84°F year-round. Kiddie pools, waterslides, wave pool, MagiQuest adventure game, laser tag, bowling, mini golf, and arcade. Resort suites with themed rooms. Day passes available.",
+    dates: "Open year-round",
+    scoreBreakdown: { cost: 35, commute: 15, coverage: 90, rating: 84, extras: 65 }
+  },
+
+  // African Lion Safari — Hamilton
+  {
+    id: 332, name: "African Lion Safari", provider: "African Lion Safari",
+    type: "summer_camp", category: "nature", city: "hamilton", province: "ON", startDate: "2026-05-01", endDate: "2026-10-15",
+    ageMin: 2, ageMax: 18, color: "#5DAE3B",
+    address: "1386 Cooper Rd, Hamilton, ON",
+    url: "https://lionsafari.com/",
+    hours: "Daily 10am–5:30pm (summer)",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 38, siblingDiscount: false, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: false,
+    commuteMins: 300, commuteKm: 500,
+    rating: 4.4, ratingCount: 9500,
+    description: "Canada's original drive-through safari with 1,000+ animals across 100+ species. Splash pad, train rides, boat cruise, playgrounds, and animal encounters. A yearly Ontario family tradition.",
+    dates: "May–Oct, daily in summer",
+    scoreBreakdown: { cost: 65, commute: 15, coverage: 88, rating: 88, extras: 55 }
+  },
+
+  // Flying Squirrel Sports — Hamilton & London
+  {
+    id: 333, name: "Flying Squirrel Trampoline Park — Hamilton", provider: "Flying Squirrel Sports",
+    type: "yearround", category: "playground", city: "hamilton", province: "ON", startDate: "2026-01-01", endDate: "2026-12-31",
+    ageMin: 3, ageMax: 18, color: "#E8842C",
+    address: "Hamilton & London locations, ON",
+    url: "https://flyingsquirrelsports.ca/",
+    hours: "Daily 10am–9pm",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 25, siblingDiscount: false, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: false,
+    commuteMins: 300, commuteKm: 500,
+    rating: 4.3, ratingCount: 3200,
+    description: "3D climbing walls, dodgeball courts, aerial silks, trampoline fly zones, ninja/parkour courses, arcade, kiddie courts, battle beams, and ziplines. Birthday party packages. Hamilton and London locations.",
+    dates: "Open year-round",
+    scoreBreakdown: { cost: 75, commute: 15, coverage: 82, rating: 86, extras: 55 }
+  },
+
+  // Air Riderz — GTA Trampoline Parks
+  {
+    id: 334, name: "Air Riderz Trampoline Parks — GTA", provider: "Air Riderz",
+    type: "yearround", category: "playground", city: "vaughan", province: "ON", startDate: "2026-01-01", endDate: "2026-12-31",
+    ageMin: 3, ageMax: 18, color: "#E8842C",
+    address: "Mississauga, Aurora/Newmarket & Vaughan, ON",
+    url: "https://airriderz.com/",
+    hours: "Daily 10am–9pm",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 25, siblingDiscount: false, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: false,
+    commuteMins: 260, commuteKm: 440,
+    rating: 4.2, ratingCount: 2800,
+    description: "Wall-to-wall trampolines, Climb Zone, Slam Dunk basketball, dodgeball, Ninja Warrior course, stunt bag, and arcade. Locations in Mississauga, Aurora/Newmarket, and Vaughan. Birthday and group packages.",
+    dates: "Open year-round",
+    scoreBreakdown: { cost: 75, commute: 20, coverage: 80, rating: 84, extras: 55 }
+  },
+
+  // Wild Waterworks — Hamilton
+  {
+    id: 335, name: "Wild Waterworks — Hamilton Water Park", provider: "Hamilton Conservation Authority",
+    type: "summer_camp", category: "splashpad", city: "hamilton", province: "ON", startDate: "2026-06-20", endDate: "2026-09-07",
+    ageMin: 2, ageMax: 18, color: "#1AA5A0",
+    address: "680 Van Wagners Beach Rd, Hamilton, ON",
+    url: "https://wild-waterworks.com/",
+    hours: "Daily 10am–6pm (summer)",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 28, siblingDiscount: false, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: false,
+    commuteMins: 300, commuteKm: 500,
+    rating: 4.3, ratingCount: 2100,
+    description: "Six exciting waterslides plus Little Squirt Works area for younger kids with wading pool, kid-sized slides, sprays, mists, and fountains. Hamilton's premier outdoor water park on the lake.",
+    dates: "Jun 20–Sep 7 daily",
+    scoreBreakdown: { cost: 72, commute: 15, coverage: 72, rating: 86, extras: 50 }
+  },
+
+  // Wet'n'Wild Toronto — Brampton
+  {
+    id: 336, name: "Wet'n'Wild Toronto — Water Park", provider: "Wet'n'Wild",
+    type: "summer_camp", category: "splashpad", city: "brampton", province: "ON", startDate: "2026-06-15", endDate: "2026-09-07",
+    ageMin: 3, ageMax: 18, color: "#1AA5A0",
+    address: "7855 Finch Ave W, Brampton, ON",
+    url: "https://wetnwildtoronto.com/",
+    hours: "Daily 10am–6pm (summer)",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 40, siblingDiscount: false, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: false,
+    commuteMins: 260, commuteKm: 440,
+    rating: 4.1, ratingCount: 3500,
+    description: "Krazy Kanuck family raft ride, mega treehouse play structure, mini water park for little ones, bowl slide, free-fall speed slides, and Klondike Express mat racer. Brampton's premier outdoor water park.",
+    dates: "Jun 15–Sep 7 daily",
+    scoreBreakdown: { cost: 60, commute: 20, coverage: 78, rating: 82, extras: 50 }
+  },
+
+  // Code-it Hacks Kids — Toronto Coding Camps
+  {
+    id: 337, name: "Code-it Hacks Kids — Coding & Robotics", provider: "Code-it Hacks",
+    type: "summer_camp", category: "stem", city: "toronto", province: "ON", startDate: "2026-06-29", endDate: "2026-08-21",
+    ageMin: 5, ageMax: 14, color: "#1AA5A0",
+    address: "Toronto, ON",
+    url: "https://www.codeithackskids.com/summer-stem-camps",
+    hours: "9am–4pm (extended care available)",
+    extendedCare: true, extendedHours: "8am–5:30pm",
+    priceWeekly: 375, priceDaily: 0, siblingDiscount: true, earlyBird: true,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 270, commuteKm: 450,
+    rating: 4.7, ratingCount: 340,
+    description: "Summer STEM camps with coding, robotics, AI, circuits, and electronics. Hands-on projects that spark creativity and develop coding skills. Small group sizes. Ages 5–14.",
+    dates: "Jun 29–Aug 21, weekly sessions",
+    scoreBreakdown: { cost: 55, commute: 20, coverage: 78, rating: 94, extras: 68 }
+  },
+
+  // Zebra Robotics — Toronto
+  {
+    id: 338, name: "Zebra Robotics — Kids AI & Coding", provider: "Zebra Robotics",
+    type: "yearround", category: "stem", city: "toronto", province: "ON", startDate: "2026-09-01", endDate: "2027-06-30",
+    ageMin: 5, ageMax: 17, color: "#1AA5A0",
+    address: "Danforth & other GTA locations, Toronto, ON",
+    url: "https://zebrarobotics.com/",
+    hours: "After-school & weekend classes",
+    extendedCare: false, extendedHours: "",
+    priceWeekly: 0, priceDaily: 0, siblingDiscount: true, earlyBird: false,
+    lunchIncluded: false, suppliesIncluded: true,
+    commuteMins: 270, commuteKm: 450,
+    rating: 4.6, ratingCount: 280,
+    description: "Kids robotics, AI, and coding classes. LEGO robotics, Python, Scratch, Arduino, and 3D printing. Year-round after-school programs and summer camps. Multiple GTA locations.",
+    dates: "Year-round classes + summer camps",
+    scoreBreakdown: { cost: 55, commute: 20, coverage: 75, rating: 92, extras: 60 }
+  },
+
   // ── REGIONAL LISTINGS — TORONTO, MONTREAL, GATINEAU, KINGSTON & MORE ──
 
   // Ripley's Aquarium of Canada — Toronto
