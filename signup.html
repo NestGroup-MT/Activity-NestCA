@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Activity-NestCA — Sign Up</title>
+<style>
+  :root { --accent:#E9A23B; --accent-dark:#C9871F; --ink:#222831; --muted:#5a6472; --line:#e3e8e7; --bg:#f7faf9; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif; color:var(--ink); background:var(--bg); line-height:1.55; }
+  header { background:var(--accent); color:#fff; padding:46px 20px 38px; text-align:center; }
+  header h1 { margin:0 0 6px; font-size:28px; letter-spacing:-.3px; }
+  header p { margin:0; opacity:.9; font-size:15px; }
+  .wrap { max-width:520px; margin:0 auto; padding:30px 20px 60px; }
+  .card { background:#fff; border:1px solid var(--line); border-radius:16px; padding:26px 24px; box-shadow:0 8px 24px rgba(0,0,0,.05); }
+  label { display:block; font-size:13px; font-weight:600; color:var(--ink); margin:14px 0 5px; }
+  input, select { width:100%; padding:11px 12px; font-size:15px; border:1px solid #cfd8d6; border-radius:9px; font-family:inherit; }
+  input:focus, select:focus { outline:none; border-color:var(--accent); box-shadow:0 0 0 3px rgba(0,0,0,.04); }
+  button { width:100%; margin-top:20px; padding:13px; font-size:16px; font-weight:700; color:#fff; background:var(--accent); border:none; border-radius:10px; cursor:pointer; }
+  button:hover { background:var(--accent-dark); }
+  .alt { text-align:center; margin-top:16px; font-size:13px; color:var(--muted); }
+  .alt a { color:var(--accent-dark); font-weight:600; }
+  .back { display:inline-block; margin-top:24px; color:var(--accent-dark); text-decoration:none; font-weight:600; font-size:14px; }
+  #ok { display:none; text-align:center; padding:18px 0; }
+  #ok h2 { color:var(--accent-dark); margin:0 0 6px; }
+  footer { text-align:center; color:var(--muted); font-size:13px; padding:10px 20px 40px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Join Activity-NestCA</h1>
+  <p>Kids’ activities & camps across Canada</p>
+</header>
+<div class="wrap">
+  <div class="card">
+    <form id="signup" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <!-- TODO: replace YOUR_FORM_ID above with your free Formspree form ID (formspree.io). -->
+      <input type="hidden" name="platform" value="Activity-NestCA">
+      <label for="name">Full name</label>
+      <input id="name" type="text" name="name" required placeholder="Your name">
+      <label for="email">Email</label>
+      <input id="email" type="email" name="email" required placeholder="you@example.com">
+      <label for="postal">Postal code <span style="font-weight:400;color:#9aa1a9">(optional)</span></label>
+      <input id="postal" type="text" name="postal_code" placeholder="A1A 1A1">
+      <label for="interest">I'm interested as a…</label>
+      <select id="interest" name="interest">
+        <option>Member / family</option>
+        <option>Provider / business</option>
+        <option>Just exploring</option>
+      </select>
+      <button type="submit">Create my free account</button>
+    </form>
+    <div id="ok">
+      <h2>You're in! 🎉</h2>
+      <p>Thanks for signing up — we'll be in touch shortly.</p>
+    </div>
+    <p class="alt">Prefer email? <a href="mailto:schesmila.annie@gmail.com?subject=Sign%20up%20for%20Activity-NestCA">Email us directly</a></p>
+  </div>
+  <a class="back" href="/">← Back to Activity-NestCA</a>
+</div>
+<footer>Activity-NestCA · part of the NestGroup family</footer>
+<script>
+  // Submits via AJAX so users stay on the page and see a success message.
+  // Works once the Formspree form ID above is set. Falls back to normal submit otherwise.
+  var form = document.getElementById('signup');
+  form.addEventListener('submit', function(e){
+    if (form.action.indexOf('YOUR_FORM_ID') !== -1) return; // not configured yet -> normal behavior
+    e.preventDefault();
+    fetch(form.action, { method:'POST', body:new FormData(form), headers:{'Accept':'application/json'} })
+      .then(function(r){ if(r.ok){ form.style.display='none'; document.getElementById('ok').style.display='block'; }
+                          else { form.submit(); } })
+      .catch(function(){ form.submit(); });
+  });
+</script>
+</body>
+</html>
